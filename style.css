@@ -1,0 +1,61 @@
+body {
+    background-color: #cac3d1;
+    
+  }
+  h1, p {
+    margin-bottom: 20px;
+}
+  .navbar.navbar-light {
+    background-color: hsl(276, 4%, 25%)!important
+    ; 
+  }
+
+.navbar-nav {
+    
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-nav .nav-item:hover .nav-link {
+    color: #ffffff;
+  }
+ 
+  #carouselExampleIndicators {
+    margin: auto;
+    margin-top: 50px; 
+    max-width: 900px; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .carousel-inner {
+    max-height: 400px;
+    overflow: hidden;
+  }
+
+  .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+  }
+  footer {
+    background-color: hsl(276, 4%, 25%)!important; 
+    color: #ffffff; /* Footer metin rengi */
+    padding: 15px 0; /* Footer iç boşluğu */
+}
+
+.social-icons-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons-list li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-icons-list a {
+    color: #ffffff; /* Sosyal medya ikon renkleri */
+    font-size: 20px;
+}
